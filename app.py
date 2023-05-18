@@ -51,7 +51,7 @@ def parameters(station: int, application: str):
         return "Error number station"
 
 
-print(parameters(station=4, application="timer"))
+print(parameters(station=1, application="timer"))
 
 
 
