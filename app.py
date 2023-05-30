@@ -47,4 +47,5 @@ def parameters(station: int, application: str):
     else:
         return "Error number station"
 
-print(parameters(station=1, application="play"))
+
+print(parameters(station=2, application="timer"))
