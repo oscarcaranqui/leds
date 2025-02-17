@@ -8,7 +8,7 @@ file = os.path.join(current_directory, path_json)
 
 
 def file_config():
-    with open(file, 'r', encoding='utf-8') as f:
+    with open(file, "r", encoding="utf-8") as f:
         config = json.load(f)
     return config
 
@@ -49,3 +49,5 @@ def parameters(station: int, application: str):
 
 
 print(parameters(station=2, application="timer"))
+
+# Esto es un ejemplo
